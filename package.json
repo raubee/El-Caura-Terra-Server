@@ -1,0 +1,24 @@
+{
+  "name": "el-caura-terra-server",
+  "version": "1.0.0",
+  "description": "El caura terra server side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.prod.js",
+    "build-dev": "npx webpack --config webpack.config.dev.js"
+  },
+  "author": "raubee",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
