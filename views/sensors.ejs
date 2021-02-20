@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>El caura terra</title>
-</head>
-<body>
-
 <h1>Sensors</h1>
 
-</body>
-</html> 
+<p><b>Temperature:</b> <%= data.temperature %> : <%= data.temp_threshold %></p>
+<p><b>Humidity:</b> <%= data.humidity %> : <%= data.hum_threshold %></p>
+
+<canvas id="temp_slider" class="round-slider"></canvas>
+<canvas id="hum_slider" class="round-slider"></canvas>

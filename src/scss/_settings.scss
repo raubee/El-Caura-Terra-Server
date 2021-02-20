@@ -1,0 +1,19 @@
+$dark-green: #20401b;
+$green: #6a8c37;
+$light-green: #a4bf69;
+$brow: #594d28;
+$brow-red: #734a32;
+
+:root {
+    --max-page-width: 1000px;
+    --gutter-size: 104px;
+    --header-height: 64px;
+    --footer-height: var(--header-height);
+    --primary-color: #a4bf69;
+    --secondary-color: #6a8c37;
+    --background-color: #20401b;
+}
+
+$primary: var(--primary-color);
+
+$font1: "Stick", sans-serif;

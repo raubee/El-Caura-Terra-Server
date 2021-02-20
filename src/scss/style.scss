@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+@import "~normalize.css/normalize.css";
+
+@import "settings";
+@import "base";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "modules/header";
+@import "modules/footer";
+@import "modules/page";
+@import "modules/round-slider";
